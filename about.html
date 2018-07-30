@@ -6,7 +6,6 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="css/main.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
@@ -14,26 +13,48 @@
 <script src="js/main.js"></script>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/luxbar.min.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/media.css">
+
 
 
 <body>
- <nav style="z-index: 1;">
+   <header id="luxbar" class="luxbar-fixed">
+    <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
+    <div class="luxbar-menu luxbar-menu-right luxbar-menu-dark">
+        <ul class="luxbar-navigation topnav">
+            <li class="luxbar-header">
+                <a href="index.html" class="luxbar-brand">URISTKG</a>
+                <label class="luxbar-hamburger luxbar-hamburger-doublespin" 
+                id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
+            </li>
+      <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+      <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+      <li class="nav-item"><a href="forum.html" class="nav-link">Forum</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
+      <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </div>
+</header>
+  <nav id="desktop_navbar">
     <div class="logo">
       <a href="index.html"><img width="70px" height="70px" src="images/image_1.jpg"></a>
     </div>
     <div id="myNavbar">
     <ul>
-      <li><a href="index.html" style="font-weight: 800;">Home</a></li>
-      <li><a href="about.html" class="active1" style="font-weight: 800;">About</a></li>
-      <li><a href="forum.html" style="font-weight: 800;">Forum</a></li>
-      <li><a href="#" style="font-weight: 800;">Portfolio</a></li>
-      <li><a href="#" style="font-weight: 800;">Team</a></li>
-      <li><a href="#contact" style="font-weight: 800;">Contact</a></li>
+      <li><a href="index.html" style="font-weight: 600;">Home</a></li>
+      <li><a href="about.html" class="active1" style="font-weight: 600;">About</a></li>
+      <li><a href="forum.html" style="font-weight: 600;">Forum</a></li>
+      <li><a href="#" style="font-weight: 600;">Portfolio</a></li>
+      <li><a href="#" style="font-weight: 600;">Team</a></li>
+      <li><a href="#contact" style="font-weight: 600;">Contact</a></li>
     </ul>
   </div>
   </nav>
 <!-- Page Container -->
-<div class="w3-content" style="max-width:1400px; margin-top: 80px;">
+<div id="demo1" class="w3-content" style="max-width:1400px;">
 
  
   <div class="w3-row-padding w3-light-grey px-5">  

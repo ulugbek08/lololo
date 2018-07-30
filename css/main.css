@@ -78,7 +78,7 @@ section.sec1
 /* Make the image fully responsive */
 .carousel-inner img {
     width: 100%;
-    height: 700px;
+    height: 100%;
 }
 .top-right {
     position: absolute;
@@ -92,3 +92,19 @@ section.sec1
   height: 200px;
 }
 
+#desktop_navbar {
+  z-index: 1;
+  display: none;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.logo img
+{
+  margin-top: -5px;
+  border-radius: 50%;
+  height: 50px;
+  transition: .5s;
+}

@@ -2,7 +2,6 @@
 <html>
 <head>
   <title>Uristkg</title>
-  <link rel="stylesheet" type="text/css" href="css/main.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
@@ -11,25 +10,53 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/luxbar.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/media.css">
+<style type="text/css">
+  nav ul li a{
+    color: #fff;
+  }
+
+
+</style>
 </head>
-<body style="height: 1500px;">
-  <nav style="z-index: 1;">
+<body>
+  <header id="luxbar" class="luxbar-fixed">
+    <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
+    <div class="luxbar-menu luxbar-menu-right luxbar-menu-dark">
+        <ul class="luxbar-navigation topnav">
+            <li class="luxbar-header logo">
+                <a href="index.html" class="luxbar-brand">URISTKG</a>
+                <label class="luxbar-hamburger luxbar-hamburger-doublespin" 
+                id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
+            </li>
+      <li class="nav-item"><a href="index.html" class="nav-link" >Home</a></li>
+      <li class="nav-item"><a href="about.html" class="nav-link" >About</a></li>
+      <li class="nav-item"><a href="forum.html" class="nav-link" >Forum</a></li>
+      <li class="nav-item"><a href="#" class="nav-link" >Portfolio</a></li>
+      <li class="nav-item"><a href="#" class="nav-link" >Team</a></li>
+      <li class="nav-item"><a href="#contact" class="nav-link" >Contact</a></li>
+        </ul>
+    </div>
+</header>
+  <nav id="desktop_navbar">
     <div class="logo">
       <a href="index.html"><img width="70px" height="70px" src="images/image_1.jpg"></a>
     </div>
     <div id="myNavbar">
     <ul>
-      <li><a href="index.html" class="active1">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="forum.html">Forum</a></li>
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">Team</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="index.html" class="active1" style="font-weight: 600;">Home</a></li>
+      <li><a href="about.html" style="font-weight: 600;">About</a></li>
+      <li><a href="forum.html" style="font-weight: 600;">Forum</a></li>
+      <li><a href="#" style="font-weight: 600;">Portfolio</a></li>
+      <li><a href="#" style="font-weight: 600;">Team</a></li>
+      <li><a href="#contact" style="font-weight: 600;">Contact</a></li>
     </ul>
   </div>
   </nav>
-<div style="margin-top: 80px;">
+<div>
 
 <div id="demo" class="carousel slide" data-ride="carousel">
   <ul class="carousel-indicators">
@@ -53,10 +80,10 @@
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="https://direkta-direkta.netdna-ssl.com/wp-content/uploads/2017/08/presude.jpg" alt="">
+      <img src="https://pdmu-7fd1.kxcdn.com/wp-pdmu/uploads/2017/05/law-legal-book-ss-1920.jpg" alt="">
       <div class="carousel-caption top-right">
         <h3 style="font-weight: 600;">Правильное решение...</h3>
-        <h4 style="font-weight: 600;">Только наши юристы понастоящему посогут вам в суде!</h4>
+        <h4 style="font-weight: 600;">Только наши юристы понастоящему помогут вам в суде!</h4>
       </div>   
     </div>
   </div>

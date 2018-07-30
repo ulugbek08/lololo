@@ -1,0 +1,19 @@
+@media only screen and (min-width: 992px){
+	#desktop_navbar {
+		display: block;
+	}
+
+	#luxbar {
+		display: none;
+	}
+}
+@media only screen and (max-width: 992px){
+	#demo{
+		margin-top: 58px;
+	}
+}
+@media only screen and (min-width: 992px){
+	#demo1{
+		margin-top: 80px;
+	}
+}
