@@ -80,3 +80,30 @@ $(document).ready(function(){
     }  // End if
   });
 });
+    $(function() {
+    	$('#images > div').each(function() {
+    		var $cfs = $(this);
+    		$cfs.carouFredSel({
+    			direction: 'up',
+    			circular: false,
+    			infinite: false,
+    			auto: false,
+    			scroll: {
+    				queue: 'last'
+    			},
+    			items: {
+    				visible: 1,
+    				width: 275,
+    				height: 200
+    			}
+    		});
+    		$cfs.hover(
+    			function() {
+    				$cfs.trigger('next');
+    			},
+    			function() {
+    				$cfs.trigger('prev');
+    			}
+    		);
+    	});
+    });
